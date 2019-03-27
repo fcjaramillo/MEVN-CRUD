@@ -1,0 +1,14 @@
+{
+  "name": "mevn-crud",
+  "version": "1.0.0",
+  "description": "Crud realizado con el Stack MEVN, motor de Base de Datos MongoDB, servidor con el framework de Express, Frontend con Vue.js y por ultimo todo soportado sobre Node.js), siendo un stack 100% javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabián Jaramillo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
