@@ -4,7 +4,8 @@
   "description": "Crud realizado con el Stack MEVN, motor de Base de Datos MongoDB, servidor con el framework de Express, Frontend con Vue.js y por ultimo todo soportado sobre Node.js), siendo un stack 100% javascript",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
   },
   "author": "Fabián Jaramillo",
   "license": "ISC",
@@ -13,5 +14,16 @@
     "mongoose": "^5.4.20",
     "morgan": "^1.9.1",
     "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
